@@ -8,7 +8,7 @@ module Home {
 
         constructor(value?: any) {
       //    document.body.innerHTML = value;
-        var animal = new AjaxContainer();
+        var animal = new AjaxContainer("ram");
         var el: HTMLElement = document.getElementById('grid1');
         $(el).css({"color": "blue" });
 

@@ -4,7 +4,7 @@ define(["require", "exports", "./ajaxLib"], function (require, exports, ajaxLib_
     (function (Home) {
         var HomeContainer = (function () {
             function HomeContainer(value) {
-                var animal = new ajaxLib_1.AjaxContainer();
+                var animal = new ajaxLib_1.AjaxContainer("ram");
                 var el = document.getElementById('grid1');
                 $(el).css({ "color": "blue" });
             }
